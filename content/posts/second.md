@@ -6,6 +6,10 @@ cover:
     image: "/img/city.jpeg"
     caption: "city"
 tags: ["Projects"]
+ShowBreadCrumbs: true
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowShareButtons: true
 ---
 
 # Awsome post

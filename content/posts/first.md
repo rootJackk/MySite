@@ -7,6 +7,11 @@ cover:
     caption: "sunflower"
 tags: ["Projects"]
 categories: ["life"]
+ShowToc: true
+ShowBreadCrumbs: true
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowShareButtons: true
 ---
 
 # Awsome post

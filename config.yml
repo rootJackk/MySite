@@ -26,13 +26,13 @@ theme: PaperMod
 
 params:
 
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
+  # ShowBreadCrumbs: true
+  # ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  # ShowPostNavLinks: true
 
-  defaultTheme: dark
-  disableThemeToggle: true
+  # defaultTheme: dark
+  # disableThemeToggle: true
 
   cover:
     linkFullImages: true
