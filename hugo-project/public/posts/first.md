@@ -1,0 +1,20 @@
+---
+title: "My First Post"
+date: 2023-04-02T01:07:28+02:00
+draft: false
+image: "girasole.jpg"
+tags: ["Projects"]
+categories: ["life"]
+---
+
+# Awsome post
+#### Ciao
+
+This is my first post and I don't know how to set it but I'm learning to use Hugo. I think it is very cool so I left you this post in order to appreciate it. Bye.
+
+```python
+n = 3
+m = 5
+print(n+m)
+````
+that is amzing helo
