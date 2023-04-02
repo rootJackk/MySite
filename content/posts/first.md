@@ -2,7 +2,9 @@
 title: "My First Post"
 date: 2023-04-02T01:07:28+02:00
 draft: false
-image: "girasole.jpg"
+cover:
+    image: "img/girasole.jpg"
+    caption: "sunflower"
 tags: ["Projects"]
 categories: ["life"]
 ---
@@ -10,7 +12,7 @@ categories: ["life"]
 # Awsome post
 #### Ciao
 
-This is my first post and I don't know how to set it but I'm learning to use Hugo. I think it is very cool so I left you this post in order to appreciate it. Bye.
+This is my first post and I don't know how to set it, I'm learning to use Hugo. I think it is very cool so I left you this post in order to appreciate it. Bye.
 
 ```python
 n = 3

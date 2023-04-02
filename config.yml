@@ -1,17 +1,75 @@
 baseURL: ""
 languageCode: en-us
-title: My New Hugo Site
+title: RootJack
 theme: PaperMod
 
-params:
-  homeInfoParams:
-    Title: 'Helo everyone'
-    Content: "That's it"
+# params:
+#   cover:
+#     linkFullImages: true
+
+#   ShowBreadCrumbs: true
+#   ShowReadingTime: true
+#   ShowShareButtons: true
+#   ShowPostNavLinks: true
+
+#   homeInfoParams:
+#     Title: 'Root Jack'
+#     Content: "That's it"
   
+
+# menu:
+#   main:
+#     - identifier: categories
+#       name: Categories
+#       url: /categories/
+#       weight: 10
+
+params:
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  cover:
+    linkFullImages: true
+    
+  profileMode:
+    enabled: true
+    title: "RootJack" # optional default will be site title
+    subtitle: "The blog that you need."
+    imageUrl: "profile.png" # optional
+    imageTitle: "Caption" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archives"
+      - name: About
+        url: "/about"
+
+  socialIcons: # optional
+    - name: "instagram"
+      url: "https://instagram.com/"
+    - name: "twitter"
+      url: "https://twitter.com/"
+    - name: Github
+      url: "https://github.com/"
 
 menu:
   main:
+    - identifier: archives
+      name: Archive
+      url: /archives
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
