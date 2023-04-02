@@ -3,7 +3,7 @@ title: "My First Post"
 date: 2023-04-02T01:07:28+02:00
 draft: false
 cover:
-    image: "img/girasole.jpg"
+    image: "/img/girasole.jpg"
     caption: "sunflower"
 tags: ["Projects"]
 categories: ["life"]
