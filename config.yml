@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://faremo-un-test.netlify.app/"
 languageCode: en-us
 title: RootJack
 theme: PaperMod
@@ -46,8 +46,8 @@ params:
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
-      - name: Archive
-        url: "/archives"
+      - name: Posts
+        url: "/posts"
       - name: About
         url: "/about"
 
@@ -62,8 +62,8 @@ params:
 menu:
   main:
     - identifier: archives
-      name: Archive
-      url: /archives
+      name: Archives
+      url: /archives/
       weight: 10
     - identifier: categories
       name: Categories
